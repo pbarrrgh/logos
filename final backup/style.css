@@ -1,0 +1,514 @@
+      /*   
+      Theme Name: V2-BLANK Theme FINAL sba
+      Theme URI: http://digwp.com
+      Description: This is just a BLANK starter WordPress Theme template -- WordPress v3.0.1
+      Author: Chris Coyier
+      Author URI: http://chriscoyier.net
+      Version: 2
+      */
+      
+html, body {
+	padding: 0;
+	margin: 0;
+	}
+html {
+	font-size: 1em;
+	}
+body {
+	font-size: 100%;
+	}
+a img, :link img, :visited img {
+	border: 0;
+	}   
+          
+     
+   @media screen {
+   
+   * { margin: 0; padding: 0; }
+   body { background: white; font-size: 100%; font: Georgia, Serif; }
+   .screen-reader-text { position: absolute; left: -9999px; top: -9999px; }
+   .clear { clear: both; }
+   .group:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+   * html .group, *:first-child+html .group { zoom: 1; } /* First selector = IE6, Second Selector = IE 7 */
+   
+   /* LAYOUT */
+   
+   /* wraps the whole enchilada */
+   #page-wrap { 
+   width: 750px;
+   margin: 10px auto; 
+   height: 100%;
+   color:#363C3D;
+   font-family: verdana, arial, sans-serif;
+   }
+   
+   #header {
+      position: relative;
+      width: 748px;
+	  height: 100px;
+	  margin-top:5%;
+      background:white;
+        }		
+     
+     /* Style THE header text */
+     
+   .headertext {
+                   padding-top: 24px;
+                   width: 750px;
+                   text-align: center;
+                   
+                   }
+   
+
+   
+                   
+     .cleartext  a   {
+     text-decoration:  none;
+     color:#363C3D;
+     font-family:"reklame-script", verdana, sans-serif;
+	 font-weight: 700; 
+	 font-size:2em;
+     } 
+     
+     /*PBR FIX S HOVER ISSUE*/
+     #s-fix {
+     letter-spacing:3px;
+     margin-left:-1px;
+     }
+                   
+   .cleartext  a:hover   {
+     text-decoration:  none;
+     color:#E83F39;
+     font-family:"reklame-script", verdana, sans-serif;
+	 font-weight: 700; 
+	 font-size:2em; 
+     } 
+     
+     
+                   
+   /* end style header text */
+   
+   
+   
+/* custom menu nav */
+
+#nav {
+   float:center;
+   width:100%;
+
+               font-family: "adelle", Georgia, serif;
+               font-size: 1em;
+               overflow:hidden;
+               position:relative;
+               text-align:center;
+               margin-top:1%;
+               padding-bottom:3%;
+               margin-bottom:2%;
+               border-bottom-style:dotted;
+               border-width:1px;
+               border-color:#7E888F;
+}
+#nav ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding: 0;
+   position:relative;
+   text-align:center;
+   padding-left:21%;
+}
+#nav ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding-left: 2px;
+   position:relative;
+   /* right:50%; */
+}
+#nav ul li a {
+   display:block;
+   margin:4px 0px 0px 2px;
+   padding:3px 74px 0px 29px;
+  background: white;
+  border-radius: 0 0 0 0;
+  /* border-top: 1px solid #bebebe;
+  border-right: 1px solid #bebebe;
+  border-left: 1px solid #bebebe; */
+   color:#7E888F;
+   text-decoration:none;
+   line-height:1.5em;
+}
+#nav ul li a:hover {
+   background: white; /* #369; */
+   color:#E83F39;
+}
+
+#nav ul li a.active,
+#nav ul li a.active:hover {
+   color:#fff;
+   background:#000;
+   font-weight:bold;
+}
+ 
+/* these classes are auto-created by WP, but are empty by default */
+.current_page_item a {color: #E60000; }
+.current-menu-item a {color: #E60000;} 
+
+ 
+/* end custom menu nav; adapted in part from http://matthewjamestaylor.com/blog/beautiful-css-centered-menus-no-hacks-full-cross-browser-support */
+   
+	 #maincontent { 
+                   float:left;
+                   width: 80%;
+                   /* background: white;  */
+                   /* border-left: 1px solid; */
+                   /* border-right: 1px solid; */
+                   margin-top:1%;
+                   font-size: .8em;
+                   font-family:verdana, arial, sans-serif;
+                   margin-right:2%;
+                   text-align:justify;
+                   background-color:white;
+                           }
+                           
+   
+      #maincontent a{ 
+                   text-decoration:none;
+                   color:#E83F39;
+                           } 
+                           
+    	#maincontent h2 a{
+   						color:#363C3D;
+    						}
+    						
+    	#maincontent h2 a:hover{
+   						color:#E83F39;
+    						}
+                           
+                           
+                           */
+                           
+   
+   #sidebar {
+                   float:right;
+                   width:28%;
+                   margin-left:1%;
+                   height: 100%;
+                   color:#7E888F;
+                   text-decoration:none;
+                   font-family:verdana, arial, sans-serif;
+                   /* BACKGROUD SENT BY BACKGROUND IMAGE IN PAGEWRAP */
+   }
+   
+   #sidebar a{
+   		color:#7E888F;
+   		text-decoration:none;
+   		font-size: .9em;
+   		}
+
+	#sidebar a:hover{
+		color:#E83F39;
+		}
+   
+   
+   #sidebar h2 {
+                   font-size: 1.1em;
+                   font-weight: 400;
+                   font-family: "adelle", Georgia, serif;
+                   text-align:center;
+                   padding-bottom:5px;
+   }
+   
+   /* PBR ICON LINKS */
+#icon-link{
+	padding-left:634px;
+	}
+   
+   /* this affects all the sidebar widgets; you can find individual classes WP assigns by using Firebug
+     if you want more granular customiztion by widget type, e.g., widget_text, widget_search, etc. */
+   
+   .widget  {
+                   font-size: 0.9em;
+                   border-bottom: 1px dotted #7E888F;
+                   padding: 10px 0 10px 0;
+   }
+   
+   .widget li {margin-left:10px;}
+                           }
+ 
+    
+   /* Chunky Footer */
+   
+   #chunkyfooter {
+   clear: both;
+   margin: 15px 0px;
+   overflow: hidden;
+   font-family:verdana, arial, sans-serif;
+   padding:0px 0px;
+   border-top:1px dotted #363C3D;
+   }
+   
+   #chunkyfooter div {
+   width: 300px; 
+   float: left;
+   padding: 0 5px;
+   
+   }
+   
+   #copyright{
+   font-family:verdana, arial, sans-serif;
+   color:#7E888F;
+   font-size:.7em;
+   padding-bottom:5px;
+   }
+   
+   /* NEW FOOTER */
+   
+/*#footer{
+	width:100%;
+	text-align:left;
+	font-size:.7em;
+	padding:12px;
+	border-top-color:#7E888F;
+	border-top-style:dotted;
+	border-top-width:1px;
+	}*/
+                          
+   .widgetfooter {
+                   color:inherit;
+                   font-size: 1em;
+   }
+   
+   .widgetfooter li {
+                   margin-left:10px;
+                   list-style:none;
+                   }
+                   
+   .widgetfooter h2 {
+                   font-size:1.2em;
+                   font-weight: 600;
+                   margin-top: 0;
+   
+   }
+ 
+ /* tweaks below to line up the middle and right widgets; this will fluctuate based on which widgets you use */  
+ .widgetfooter.widget_archive {margin-left: 5px; text-align: center;}
+ .widgetfooter.widget_search {text-align: center;}          
+                   
+   
+   /* end chunky */ 
+   
+     /* restore if use original non-widgetized footer
+       
+     #footer {
+   
+                   clear:both;
+   
+                   padding:5px 10px;
+   
+                   
+                   border: 1px solid #bebebe;
+                  
+                   
+                   }
+     */
+     
+   
+   
+   #nosidebar { /* used when sidebar removed from template */
+                   float:left;
+                   /* width: 70%; */
+                   padding: 5px .5%; /* 66% wide total for maincontent */
+                   font-family: times new roman, serif;
+                   height: 200px;
+                   background: white; /* differs from server version */
+                   /* border-left: 1px solid;
+                   border-right: 1px solid;
+                   border-color: #bebebe; */
+                   font-size: 1.1em;
+                           }
+                           
+   /* type */
+   
+   h1, h2, h3 { font-weight: normal; margin: 0 0 0 0; text-decoration: none; }
+   
+   
+   h2 a{
+                   text-decoration:none;
+   }
+   
+   /* BLOG TITLE STYLING */
+   h2 {
+   font-family:"adelle", georgia, serif;
+   font-size: 1.4em;
+   text-align:center;
+   }
+                   
+   p { margin: 0 0 10px 0; }
+
+   
+   /* posts */
+   
+   blockquote { }
+   blockquote p {
+      padding: 2px 35px;
+      font-style: italic;}
+   
+   ul, ol { margin: 0 0 10px 0; }
+   
+   .post {margin-left: 0px;
+	padding:0px 30px 0px 30px;
+   }
+
+     .post h2{
+   font-family: "adelle", Georgia, serif;
+   color:#363C3D;
+   text-align:center;
+   font-size:2em;
+   font-weight:600;
+   }
+
+   .entry {
+
+   }
+
+   .entry h2{
+   font-family: "adelle", Georgia, serif;
+   color:#363C3D;
+   text-align:center;
+   font-size:1.4em;
+   font-weight:600;
+   }
+  
+     
+   .entry a { }
+   .entry a:hover { }
+   
+   
+   pre { }
+   code, tt { }
+   
+   #meta { }
+   
+   /* POST META ATTRIBUTES */
+   .postmetadata {
+      border-bottom-style:dotted;
+   	  border-width:1px;
+      border-color:#E83F39;
+      color:#7E888F; 
+      margin-bottom:5%;
+      font-size:.9em;
+      }
+   
+
+  
+   .wp-caption p.wp-caption-text {
+       font-size:.8em;
+       font-family:verdana, arial, sans-serif;
+       color:#7E888F;
+       padding: 0 5px 0 0;
+       }
+
+   
+   
+   /* aligment classes */
+   
+   .alignleft {
+   float:left;
+   padding: 5px 10px 5px 0;
+   }
+   
+   
+   .alignright {
+   float:right;
+   padding: 5px 1px 5px 10px;
+   }
+   .aligncenter, div.aligncenter {
+       display:block;
+       margin: 5px auto 5px auto;
+   }
+   
+/* VIMEO */
+.vimeo{
+	margin:5px 0px 0px 30px;
+	}
+	
+.vimeo-caption{
+	font-family:verdana, arial, sans-serif;
+	color:#7E888F;
+	font-size:.8em;
+	text-align:left;
+	width:400px;
+	margin-left:32px;
+	margin-bottom:10px;
+	}
+	
+	
+/* MULTIMEDIA */
+.multimedia-video{
+	margin-left:30px;
+	margin-bottom:20px;
+	}
+	
+.multimedia-audio{
+	margin-left:30px;
+	margin-bottom:20px;
+	}
+	
+/*ABOUT*/
+.subhead{
+   font-family: "adelle", Georgia, serif;
+   color:#363C3D;
+   text-align:center;
+   font-size:1.4em;
+   font-weight:600;
+	}
+	
+/* SINGLE PAGE DISPLAY */
+#single{
+	margin-bottom:20px;
+	padding-bottom:20px;
+	border-bottom:1px dotted #E83F39
+}
+   
+/* COMMENTS */
+   
+   #comments {
+      margin-left: 30px;
+      color: #7E888F;
+      margin-top: 30px;
+      padding-top: 30px;
+      font-size:1.2em;
+      border-top-style:dotted;
+      border-top-width:1px;
+      border-color:#E83F39;
+   }
+   #respond {color:#7E888F;
+   margin-left: 30px;
+   margin-bottom:20px;}
+   
+   #respond h2 {font-size:1.2em;}
+   
+   .commentlist {margin-left: 50px;
+   }
+
+
+   						
+   /* not in right now 
+   
+   #searchform { }
+           #s { }
+           #searchsubmt { }
+           
+   
+   form { }
+   input[type=text] { }
+   textarea { }
+   
+   */
+   
+   } /* END screen media */
+   
+  

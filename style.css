@@ -1,0 +1,114 @@
+body{
+	max-width:800px;
+	margin:10px auto;
+	font-family:'bitter', helvetica, arial, sans-serif;
+	}
+
+header{
+	margin-bottom:2%;
+	}
+
+#sitename{
+	background:white;
+	font-size:2.3em;
+	max-width:98%;
+	float:left;
+	padding:0 1% 0 1%;
+	margin:0 0% 1% 0;
+	font-weight:bold;
+	line-height:1.2em;
+	text-align:left;
+	}
+
+#sitename a, #sitename a:visited{
+	text-decoration:none;
+	color:black;
+	}	
+	
+#sitename a:hover{
+	color:#444;
+	}
+
+	
+#sitedesc{
+	background:white;
+	max-width:98%;
+	padding:0 1% 0 1%;
+	float:left;
+	font-family:'bitter', helvetica, arial, sans-serif;
+	text-align:justify;
+	}
+	
+#red-legend{
+	color:#f77d79;
+	}
+	
+#green-legend{
+	color:#67a953;
+	}
+	
+#logo-grid{	
+	background:white;
+	width:100%;
+	float:left;
+	margin:20px 0 0 0;
+	}
+	
+.logo{
+	float:left;
+	margin:0 10px 20px 10px;
+	background:white;
+	border:1px #888 solid;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	}
+	
+.logo img{
+	width:137px;
+	}
+
+#about{
+	width:137px;
+	height:122px;
+	text-align:center;
+	padding:10px 0 10px 0;
+	}
+
+#about a{
+	padding:10%;
+	text-decoration:none;
+	line-height:1.5em;
+	font-size:1.3em;
+	}
+
+.logo:visited{
+	border:1px red solid;
+	}
+	
+#green:hover{
+	background:#99df84;
+	}
+
+#red:hover{
+	background:#f77d79;
+	}
+
+#complete{
+	background-image:url('images-2/results.png');
+	background-repeat:no-repeat;
+	}
+	
+#latest{
+	background-image:url('images-2/latest-text.png');
+	background-repeat:no-repeat;
+	}
+	
+#complete:hover img, #latest:hover img{
+	opacity:0.0;
+	}
+	
+	
+
+	
+

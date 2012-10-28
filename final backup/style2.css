@@ -1,0 +1,47 @@
+body{
+	max-width:550px;
+	margin:20px auto;
+	font-family:'bitter', helvetica, arial, sans-serif;
+	}
+
+body img{
+	float:left;
+	margin-right:2%;
+	}
+
+header{
+	font-size:2em;
+	}
+	
+body p{
+	font-size:0.8em;
+	text-align:justify;
+	}
+	
+body p a{
+	text-decoration:none;
+	color:#ef524d;
+	}
+	
+.photo-credit{
+	color:#666;
+	font-size:0.7em;
+	}	
+	
+#home-button{
+	background-color:#666;
+	width:10%;
+	float:left;
+	padding:5px;
+	text-align:center;
+	font-size:0.9em;
+	}
+	
+#home-button a{
+	text-decoration:none;
+	color:white;
+	}
+	
+#home-button:hover{
+	background-color:#ef524d;
+	}
